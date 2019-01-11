@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    Epress provideds a server module with the features of routing and middleware.
+
 - [ ] Describe Middleware?
+
+    MIddleware is/are functions creating a reqest and response to a spicific URL or uniform resource location.
 
 - [ ] Describe a Resource?
 
+    A resource is a peice of information which is accessible via a unique URI or uniform resource identifier.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+    The api can send back a status describing the success or failure of a request.
+
 - [ ] How can we partition our application into sub-applications?
+
+    We can use expresses Routing functionality. This provides us with the capability of breaking our api into smaller applications which are tied together via use().
 
 ## Project Setup
 
